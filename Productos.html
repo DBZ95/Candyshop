@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="es">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Productos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/icono.png">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/easyzoom.css">
+    </head>
+
+    <body class="text-primary-emphasis bg-primary-subtle border-primary-subtle rounded-3">
+    <h1 align="center" id="CandyShop">CandyShop</h1>
+    <nav class="navbar navbar-expand-lg bg-secondary-subtle">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" width="80">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link titulos" href="index.html" id="Inicio">Inicio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link titulos" href="Productos.html" id="productos">productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link titulos" href="Contactos.html" id="Contactos">Contactos</a>
+                    </li>
+                </a>
+        
+                </li>
+            
+            </ul>
+
+            <div class="d-flex" role="search">
+                <input class="form-control me-2" type="search" id="palabra" placeholder="Busca tu producto" aria-label="search">
+                <button class="btn btn-outline-success" type="submit" id="btnbusqueda">Buscar</button>
+            </div>
+
+            </div>
+        </div>
+        </nav>
+
+        <div class="container">
+
+<div class="d-flex flex-row">
+
+<div class="col-3 d-flex flex-column ">
+
+    <button style="background-color: rgb(255, 0, 242);" type="button" class="btn btn-secondary w-100 m-3" id="btnPaletas">Paletas</button>
+<button style="background-color: rgb(255, 0, 242);" type="button" class="btn btn-secondary w-100 m-3" id="btnChocolates">Chocolates</button>
+<button style="background-color: rgb(255, 0, 242);" type="button" class="btn btn-secondary  w-100 m-3" id="btnGomitas">Gomitas</button>
+
+</div>
+
+
+<div class="col-10">
+    <div class="d-flex flex-row flex flex-wrap justify-content-evenly">
+
+
+
+        <div class="card m-3 Paletas Pinta Azul" style="width: 19rem;">
+            <img src="img/pinta azul.png" class="card-img-top" alt="...">
+            <div class="card-body" align="center">
+                <em><h2 class="card-title">Paletas Pinta Azul</h2></em>
+                <del><p>De $80</p></del>
+                <h3><p class="card-text">a Solo $50</p></h3>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#Azul" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Ofertas
+                </a>
+                <div class="collapse" id="Azul">
+                    <em><p class="card-text">En la compra de 3 cajas de pinta azul, la 4ta caja sera Gratis</p></em>
+                </div>
+            </div>
+            
+            </div>
+    
+            <div class="card m-3 Paletas Tupsi Roll" style="width: 19rem;">
+                <img src="img/tupsi roll.png" class="card-img-top" alt="...">
+                <div class="card-body" align="center">
+                    <em><h2 class="card-title">Paletas Tupsi Roll</h2></em>
+                    <del><p>De $100</p></del>
+                    <h3><p class="card-text">a Solo $70</p></h3>
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#Roll" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        Ofertas
+                    </a>
+                    <div class="collapse" id="Roll">
+                        <em><p class="card-text">Comprando 2 bolsas de tupsi por roll llevate otra Gratis</p></em>
+                    </div>
+                </div>
+                
+                </div>
+    
+    
+    
+                    <div class="card m-3 Paletas Tupsi Pop" style="width: 19rem;">
+                        <img src="img/tupsi pop.png" class="card-img-top" alt="...">
+                        <div class="card-body" align="center">
+                            <em><h2 class="card-title">Paletas Tupsi Pop</h2></em>
+                            <del><p>De $120</p></del>
+                            <h3><p class="card-text">a Solo $90</p></h3>
+                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#Pop" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                Ofertas
+                            </a>
+                            <div class="collapse" id="Pop">
+                                <em><p class="card-text">En la compra de 1 bolsa de tupsi pop original se lleva Gratis una tupsi bota. </p></em>
+                            </div>
+                        </div>
+                        
+                        </div>
+    
+                        <div class="card m-3 Paletas Elote Vero" style="width: 19rem;">
+                            <img src="img/vero elotes.png" class="card-img-top" alt="...">
+                            <div class="card-body" align="center">
+                                <em><h2 class="card-title">Paletas Vero Elote</h2></em>
+                                <del><p>De $50</p></del>
+                                <h3><p class="card-text">a Solo $25</p></h3>
+                                <a class="btn btn-primary" data-bs-toggle="collapse" href="#Elote" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Ofertas
+                                </a>
+                                <div class="collapse" id="Elote">
+                                    <em><p class="card-text">Compra 2 bolsas Vero Elote y llevate una bolsa de Vero manitas a mitad de precio.</p></em>
+                                </div>
+                            </div>
+                            
+                            </div>
+    
+                            <div class="card m-3 Paletas Vero Manitas" style="width: 19rem;">
+                                <img src="img/vero manitas.png" class="card-img-top" alt="...">
+                                <div class="card-body" align="center">
+                                    <em><h2 class="card-title">Paletas Vero Manitas</h2></em>
+                                    <del><p>De $100</p></del>
+                                    <h3><p class="card-text">a Solo $82</p></h3>
+                                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#Manitas" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        Ofertas
+                                    </a>
+                                    <div class="collapse" id="Manitas">
+                                        <em><p class="card-text">Compra 3 bolsas Vero Manitas y obten un 30% de descuento en cada una de ellas</p></em>
+                                    </div>
+                                </div>
+                                
+                                </div>
+    
+                                <div class="card m-3 Chocolates Carlos V" style="width: 19rem;">
+                                    <img src="img/carlos v.png" class="card-img-top" alt="...">
+                                    <div class="card-body" align="center">
+                                        <em><h2 class="card-title">Chocolates Carlos V</h2></em>
+                                        <del><p>De $100</p></del>
+                                        <h3><p class="card-text">a Solo $80</p></h3>
+                                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#Carlos" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                            Ofertas
+                                        </a>
+                                        <div class="collapse" id="Carlos">
+                                            <em><p class="card-text">en compra de 5 chocolates o mas llevate el 20% de descuento.</p></em>
+                                        </div>
+                                    </div>
+                                    
+                                    </div>
+    
+                                    <div class="card m-3 Chocolates Conejo Turin" style="width: 19rem;">
+                                        <img src="img/conejo turin.png" class="card-img-top" alt="...">
+                                        <div class="card-body" align="center">
+                                            <em><h2 class="card-title">Chocolates Conejo Turin</h2></em>
+                                            <del><p>De $150</p></del>
+                                            <h3><p class="card-text">a Solo $100</p></h3>
+                                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#Turin" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                Ofertas
+                                            </a>
+                                            <div class="collapse" id="Turin">
+                                                <em><p class="card-text">Comprando 2 cajas de Conejo Turin obten de regalo un huevo kinder Gigante.</p></em>
+                                            </div>
+                                        </div>
+    
+                                        
+                                        </div>
+    
+                                        <div class="card m-3 Chocolates Huevo Kinder" style="width: 19rem;">
+                                            <img src="img/huevo kinder sorpresa.png" class="card-img-top" alt="...">
+                                            <div class="card-body" align="center">
+                                                <em><h2 class="card-title">Chocolates Huevo Kinder</h2></em>
+                                                <del><p>De $100</p></del>
+                                                <h3><p class="card-text">a Solo $80</p></h3>
+                                                <a class="btn btn-primary" data-bs-toggle="collapse" href="#Huevo" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                    Ofertas
+                                                </a>
+                                                <div class="collapse" id="Huevo">
+                                                    <em><p class="card-text">En la compra de un Huevo kinder Gigante llevate de regalo 1 huevo kinder original</p></em>
+                                                </div>
+                                            </div>
+                                            
+                                            
+                                            </div>
+    
+                                            <div class="card m-3 Chocolates Kinder Joy" style="width: 19rem;">
+                                                <img src="img/kinder joy.png" class="card-img-top" alt="...">
+                                                <div class="card-body" align="center">
+                                                    <em><h2 class="card-title">Chocolates Kinder Joy</h2></em>
+                                                    <del><p>De $54</p></del>
+                                                    <h3><p class="card-text">a Solo $40</p></h3>
+                                                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#Joy" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                        Ofertas
+                                                    </a>
+                                                    <div class="collapse" id="Joy">
+                                                        <em><p class="card-text">En la compra de mas de 4 pzs obten el 40% de descuento en este producto.</p></em>
+                                                    </div>
+                                                </div>
+                                                
+                                                
+                                                </div>
+
+                                                <div class="card m-3 Chocolates Turin" style="width: 19rem;">
+                                                    <img src="img/turin elegante.png" class="card-img-top" alt="...">
+                                                    <div class="card-body" align="center">
+                                                        <em><h2 class="card-title">Chocolates Turin</h2></em>
+                                                        <del><p>De $200</p></del>
+                                                        <h3><p class="card-text">a Solo $165</p></h3>
+                                                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#Chocolate" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                            Ofertas
+                                                        </a>
+                                                        <div class="collapse" id="Chocolate">
+                                                            <em><p class="card-text">Arovecha en 20% de descuento en este producto.</p></em>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    
+                                                    </div>
+                                                    
+                                                    <div class="card m-3 Chocolates Kinder Bueno" style="width: 19rem;">
+                                                        <img src="img/Kinder bueno.png" class="card-img-top" alt="...">
+                                                        <div class="card-body" align="center">
+                                                            <em><h2 class="card-title">Chocolates Kinder Bueno</h2></em>
+                                                            <del><p>De $30</p></del>
+                                                            <h3><p class="card-text">a Solo $20</p></h3>
+                                                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#Bueno" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                                Ofertas
+                                                            </a>
+                                                            <div class="collapse" id="Bueno">
+                                                                <em><p class="card-text">Arovecha en 15% de descuento en este producto.</p></em>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        
+                                                        </div>
+
+                                                        <div class="card m-3 Chocolates Kinder Maxi" style="width: 19rem;">
+                                                            <img src="img/Kinder Maxi.png" class="card-img-top" alt="...">
+                                                            <div class="card-body" align="center">
+                                                                <em><h2 class="card-title">Chocolates Kinder Maxi</h2></em>
+                                                                <del><p>De $100</p></del>
+                                                                <h3><p class="card-text">a Solo $65</p></h3>
+                                                                <a class="btn btn-primary" data-bs-toggle="collapse" href="#Maxi" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                                    Ofertas
+                                                                </a>
+                                                                <div class="collapse" id="Maxi">
+                                                                    <em><p class="card-text">Arovecha en 30% de descuento en este producto.</p></em>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            
+                                                            </div>
+
+                                                            <div class="card m-3 Gomitas Aros" style="width: 19rem;">
+                                                                <img src="img/Gomitas aros.png" class="card-img-top" alt="...">
+                                                                <div class="card-body" align="center">
+                                                                    <em><h2 class="card-title">Gomitas de Aros</h2></em>
+                                                                    <del><p>De $100Kg</p></del>
+                                                                    <h3><p class="card-text">a Solo $75Kg</p></h3>
+                                                                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#Aros" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                                        Ofertas
+                                                                    </a>
+                                                                    <div class="collapse" id="Aros">
+                                                                        <em><p class="card-text">en compra de 250g de gomitas de aros, llevate gratis 100g de Gomitas de ositos.</p></em>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                                
+                                                                </div>
+
+                                                                <div class="card m-3 Gomitas Panditas" style="width: 19rem;">
+                                                                    <img src="img/Panditas.png" class="card-img-top" alt="...">
+                                                                    <div class="card-body" align="center">
+                                                                        <em><h2 class="card-title">Gomitas de Panditas</h2></em>
+                                                                        <del><p>De $120Kg</p></del>
+                                                                        <h3><p class="card-text">a Solo $85Kg</p></h3>
+                                                                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#Panditas" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                                            Ofertas
+                                                                        </a>
+                                                                        <div class="collapse" id="Panditas">
+                                                                            <em><p class="card-text">Arovecha en 35% de descuento en este producto.</p></em>
+                                                                        </div>
+                                                                    </div>
+                                                                    
+                                                                    
+                                                                    </div>
+                                                                    
+                                                                    <div class="card m-3 Gomitas Azucaradas" style="width: 19rem;">
+                                                                        <img src="img/Gomitas Azucaradas.png" class="card-img-top" alt="...">
+                                                                        <div class="card-body" align="center">
+                                                                            <em><h2 class="card-title">Gomitas Azucaradas</h2></em>
+                                                                            <del><p>De $80Kg</p></del>
+                                                                            <h3><p class="card-text">a Solo $50Kg</p></h3>
+                                                                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#Azucaradas" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                                                Ofertas
+                                                                            </a>
+                                                                            <div class="collapse" id="Azucaradas">
+                                                                                <em><p class="card-text">Arovecha en 20% de descuento en este producto.</p></em>
+                                                                            </div>
+                                                                        </div>
+                                                                        
+                                                                        
+                                                                        </div>
+
+                                                                        <div class="card m-3 Gomitas Sandia" style="width: 19rem;">
+                                                                            <img src="img/Gomitas Sandia.png" class="card-img-top" alt="...">
+                                                                            <div class="card-body" align="center">
+                                                                                <em><h2 class="card-title">Gomitas de Sandia</h2></em>
+                                                                                <del><p>De $100Kg</p></del>
+                                                                                <h3><p class="card-text">a Solo $65Kg</p></h3>
+                                                                                <a class="btn btn-primary" data-bs-toggle="collapse" href="#Sandia" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                                                    Ofertas
+                                                                                </a>
+                                                                                <div class="collapse" id="Sandia">
+                                                                                    <em><p class="card-text">Arovecha en 20% de descuento en este producto.</p></em>
+                                                                                </div>
+                                                                            </div>
+                                                                            
+                                                                            
+                                                                            </div>
+    </div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal">
+    <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">$550</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Cantidad por:</th>
+                    <th scope="col">porcion(6g)</th>
+                    <th scope="col">100g de producto</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>proteina</td>
+                    <td>22g</td>
+                    <td>450g</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>B2</td>
+                    <td>5mg</td>
+                    <td>15g</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">VC</td>
+                    <td>2mg</td>
+                    
+                    
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/Filtros.js"></script>
+    <script src="js/easyzoom.js"></script>
+    <script>
+		// Instantiate EasyZoom instances
+		var $easyzoom = $('.easyzoom').easyZoom();
+
+		// Setup thumbnails example
+		var api1 = $easyzoom.filter('.easyzoom--with-thumbnails').data('easyZoom');
+
+		$('.thumbnails').on('click', 'a', function(e) {
+			var $this = $(this);
+
+			e.preventDefault();
+
+			// Use EasyZoom's `swap` method
+			api1.swap($this.data('standard'), $this.attr('href'));
+		});
+
+		// Setup toggles example
+		var api2 = $easyzoom.filter('.easyzoom--with-toggle').data('easyZoom');
+
+		$('.toggle').on('click', function() {
+			var $this = $(this);
+
+			if ($this.data("active") === true) {
+				$this.text("Switch on").data("active", false);
+				api2.teardown();
+			} else {
+				$this.text("Switch off").data("active", true);
+				api2._init();
+			}
+		});
+	</script>
+    
+    </body>
+
+
+    
+
+
+
+
+
+</html>

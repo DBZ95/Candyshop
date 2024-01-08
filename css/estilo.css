@@ -1,0 +1,39 @@
+.titulos:hover{
+    font-size: x-large;
+}
+#Inicio{
+    color: rgb(15, 15, 15);
+}
+
+#productos{
+    color: rgb(15, 15, 15);
+}
+
+#Contactos{
+    color: rgb(15, 15, 15);
+}
+
+#CandyShop{
+    color: rgb(218, 16, 167);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#btnPaletas{
+    font-family: cursive;
+    font-size: 25px;
+}
+
+#btnChocolates{
+    font-family: cursive;
+    font-size: 25px;
+}
+
+#btnGomitas{
+    font-family: cursive;
+    font-size: 25px;
+}
+
+#Membrecia{
+    color: rgb(218, 16, 167);
+    font-family: sans-serif;
+}
