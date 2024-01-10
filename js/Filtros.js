@@ -38,9 +38,9 @@ $(document).ready(
                         
                             let productos=document.getElementById('palabra').value;
 
-                            if(productos=="Paleta"){
+                            if(productos=="Paletas"){
                                 $('.card').hide();
-                                $('.Paleta').show();
+                                $('.Paletas').show();
                             }
 
                             if(productos=="Pinta"){
@@ -83,9 +83,9 @@ $(document).ready(
                                 $('.Manitas').show();
                             }
 
-                            if(productos=="Chocolate"){
+                            if(productos=="Chocolates"){
                                 $('.card').hide();
-                                $('.Chocolate').show();
+                                $('.Chocolates').show();
                             }
 
                             if(productos=="Carlos"){
